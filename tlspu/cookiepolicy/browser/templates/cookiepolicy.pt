@@ -1,4 +1,4 @@
-<div id="viewlet-cookiepolicy"
+<div id="viewlet-cookiepolicy" class="portalMessage"
      style="display:none"
      i18n:domain="tlspu.cookiepolicy"
      tal:condition="view/enabled">
