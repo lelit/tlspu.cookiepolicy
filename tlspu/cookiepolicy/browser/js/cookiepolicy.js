@@ -51,23 +51,16 @@ jQuery(function() {
     };
 
     chk.onclick = function() {
-        if (chk.checked) {
-            btn.disabled = false;
-        } else {
-            btn.disabled = true;
-        }
+        btn.disabled = chk.checked ? false : true;
     };
 
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-        var c = ca[i];
-        while (c.charAt(0) === ' ') {
-            c = c.substring(1,c.length);
-        }
-        if (c.indexOf("cookie-policy=") === 0) {
-            CookiePolicy.acceptCookiePolicy();
+    var cookies = document.cookie.split(';');
+    var i, c_length;
+    for(i=0, c_length = cookies.length; i < c_length; i += 1) {
+        if (cookies[i].indexOf("cookie-policy=") !== -1) {
             return;
         }
     }
+
     setTimeout(CookiePolicy.toggleCookiePolicy, 1000);
 });
