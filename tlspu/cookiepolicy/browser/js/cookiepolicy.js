@@ -2,15 +2,15 @@ var CookiePolicy = {};
 
 CookiePolicy.toggleCookiePolicy = function toggleCookiePolicy() {
     jQuery("#viewlet-cookiepolicy").slideToggle(500);
-}
+};
 
 CookiePolicy.acceptCookiePolicy = function acceptCookiePolicy() {
     var date = new Date();
-    date.setFullYear(date.getFullYear() + 1)
+    date.setFullYear(date.getFullYear() + 1);
     var expires = "; expires="+date.toGMTString();
     document.cookie = "cookie-policy=accepted"+expires+"; path=/";
     CookiePolicy.toggleCookiePolicy();
-}
+};
 
 CookiePolicy.confirmAcceptCookiePolicy = function confirmAcceptCookiePolicy() {
     if (document.getElementById("cookie-agreed").checked) {
@@ -19,7 +19,7 @@ CookiePolicy.confirmAcceptCookiePolicy = function confirmAcceptCookiePolicy() {
         // This should never happen unless users are removing the disabled flag themselves.
         window.alert("You must confirm that you have read and understood this message before dismissing it.");
     }
-}
+};
 
 CookiePolicy.deleteCookies = function delete_cookies(domain) {
     var cookie_domain = domain || window.location.hostname;
