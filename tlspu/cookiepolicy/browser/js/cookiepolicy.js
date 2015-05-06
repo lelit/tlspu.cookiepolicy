@@ -12,15 +12,6 @@ CookiePolicy.acceptCookiePolicy = function acceptCookiePolicy() {
     CookiePolicy.toggleCookiePolicy();
 };
 
-CookiePolicy.confirmAcceptCookiePolicy = function confirmAcceptCookiePolicy() {
-    if (document.getElementById("cookie-agreed").checked) {
-        acceptCookiePolicy();
-    } else {
-        // This should never happen unless users are removing the disabled flag themselves.
-        window.alert("You must confirm that you have read and understood this message before dismissing it.");
-    }
-};
-
 CookiePolicy.deleteCookies = function delete_cookies(domain) {
     var cookie_domain = domain || window.location.hostname;
     cookie_domain = cookie_domain.indexOf('www') === 0 ? cookie_domain.substr(3) : cookie_domain;
