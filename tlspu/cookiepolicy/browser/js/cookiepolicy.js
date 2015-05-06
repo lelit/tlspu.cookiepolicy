@@ -23,7 +23,7 @@ CookiePolicy.confirmAcceptCookiePolicy = function confirmAcceptCookiePolicy() {
 
 CookiePolicy.deleteCookies = function delete_cookies(domain) {
     var cookie_domain = domain || window.location.hostname;
-    cookie_domain = cookie_domain.indexOf('www') === 0 ? cookie_domain.substr(3) : cookie_domain
+    cookie_domain = cookie_domain.indexOf('www') === 0 ? cookie_domain.substr(3) : cookie_domain;
     var cookies = document.cookie.split(";");
     var i, cookie, key, cookie_length;
     for (i = 0, cookie_length = cookies.length; i < cookie_length; i += 1) {
@@ -45,9 +45,11 @@ jQuery(function() {
         return;
     }
 
-    btn.onclick = function() {
+    btn.onclick = function(evt) {
         CookiePolicy.acceptCookiePolicy();
+        evt.preventDefault();
     };
+
     chk.onclick = function() {
         if (chk.checked) {
             btn.disabled = false;
