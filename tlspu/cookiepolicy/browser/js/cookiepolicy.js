@@ -30,19 +30,10 @@ CookiePolicy.deleteCookies = function delete_cookies(domain) {
 
 jQuery(function() {
     var btn = document.getElementById("tlspu_cookiepolicy_button");
-    var chk = document.getElementById("tlspu_cookiepolicy_agreed");
-
-    if (btn === null) {
-        return;
-    }
 
     btn.onclick = function(evt) {
         CookiePolicy.acceptCookiePolicy();
         evt.preventDefault();
-    };
-
-    chk.onclick = function() {
-        btn.disabled = chk.checked ? false : true;
     };
 
     var cookies = document.cookie.split(';');
