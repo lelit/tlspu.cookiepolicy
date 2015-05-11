@@ -2,8 +2,8 @@ i
 Changelog
 ---------
 
-1.1.4.eea-dev0 (unreleased)
----------------------------
+1.1.4.eea (11-05-2014)
+----------------------
 * Removed text and background color for the cookiepolicy viewlet div in order
   to force users to provide their own styling which looks better within Sunburst
   [ichimdav]
