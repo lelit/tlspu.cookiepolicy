@@ -1,6 +1,10 @@
 Changelog
 ---------
 
+1.1.5.eea (11-05-2014)
+----------------------
+* Fixed brown bag release
+
 1.1.4.eea (11-05-2014)
 ----------------------
 * Removed text and background color for the cookiepolicy viewlet div in order
