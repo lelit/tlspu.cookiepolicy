@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-08-16 12:22+0000\n"
+"POT-Creation-Date: 2015-05-11 11:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: tlspu.cookiepolicy\n"
 
-#: ./controlpanel/cookiepolicy.py:79
+#: ./controlpanel/cookiepolicy.py:86
 msgid "Configure settings for Cookie Policy."
 msgstr ""
 
-#: ./controlpanel/cookiepolicy.py:71
+#: ./controlpanel/cookiepolicy.py:78
 #: ./profiles/default/actionicons.xml
 #: ./profiles/default/controlpanel.xml
 msgid "Cookie Policy"
 msgstr ""
 
-#: ./controlpanel/cookiepolicy.py:78
+#: ./controlpanel/cookiepolicy.py:85
 msgid "Cookie Policy settings"
 msgstr ""
 
@@ -35,12 +35,8 @@ msgstr ""
 msgid "Enable Cookie Policy"
 msgstr ""
 
-#: ./browser/templates/cookiepolicy.pt:12
-msgid "Hide this message"
-msgstr ""
-
-#: ./browser/templates/cookiepolicy.pt:11
-msgid "I have read and understood this message."
+#: ./browser/templates/cookiepolicy.pt:9
+msgid "I am fine with this"
 msgstr ""
 
 #: ./controlpanel/cookiepolicy.py:41
@@ -53,6 +49,10 @@ msgstr ""
 
 #: ./controlpanel/cookiepolicy.py:32
 msgid "Title"
+msgstr ""
+
+#: ./controlpanel/cookiepolicy.py:47
+msgid "We may use cookies to record some preference settings and to analyse how you use our web site. We may also use external analysis systems which may set additional cookies to perform their analysis.These cookies are integral to our web site. You can delete or disable these cookies in your web browser if you wish but then our site may not work correctly."
 msgstr ""
 
 #. Default: "Enter the message for the CookiePolicy panel. This may contain HTML"
