@@ -30,6 +30,9 @@ CookiePolicy.deleteCookies = function delete_cookies(domain) {
 
 jQuery(function() {
     var btn = document.getElementById("tlspu_cookiepolicy_button");
+    if (!btn) {
+        return;
+    }
 
     btn.onclick = function(evt) {
         CookiePolicy.acceptCookiePolicy();
