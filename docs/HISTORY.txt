@@ -25,7 +25,6 @@ Changelog
 * Cleaned javascript of global variables, unused functions and jslints
   [ichimdav refs #20319]
 
-
 1.1.3 (2012-12-21)
 ------------------
 * Fix javascript error if cookiepolicy is disabled (David Carter)
