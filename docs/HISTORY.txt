@@ -1,6 +1,9 @@
 Changelog
 ---------
 
+1.1.7.dev0 - (unreleased)
+-------------------------
+
 1.1.6 - (2015-06-03)
 --------------------
 * Bug fix: check if tlspu_cookiepolicy_button exists in order to avoid js error
