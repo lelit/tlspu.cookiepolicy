@@ -1,8 +1,8 @@
 Changelog
 ---------
 
-1.1.6.dev0 - (unreleased)
------------------------------
+1.1.6 - (2015-06-03)
+--------------------
 * Bug fix: check if tlspu_cookiepolicy_button exists in order to avoid js error
   for pages where the viewlet isn't rendering although the js is such as in the
   case of calling a template on an object
@@ -50,3 +50,4 @@ Changelog
 ----------------
 * Initial release
   [haqa]
+
