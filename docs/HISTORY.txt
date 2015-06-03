@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.1.6.eea.dev0 - (unreleased)
+1.1.6.dev0 - (unreleased)
 -----------------------------
 * Bug fix: check if tlspu_cookiepolicy_button exists in order to avoid js error
   for pages where the viewlet isn't rendering although the js is such as in the
