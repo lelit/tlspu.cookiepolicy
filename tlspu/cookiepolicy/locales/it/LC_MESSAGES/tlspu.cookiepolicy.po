@@ -1,0 +1,66 @@
+# Italian messages for tlspu.cookiepolicy.
+# Lele Gaifax <lele@metapensiero.it>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1.7.eea\n"
+"POT-Creation-Date: 2015-05-11 11:14+0000\n"
+"PO-Revision-Date: 2015-07-03 09:45+0200\n"
+"Last-Translator: Lele Gaifax <lele@metapensiero.it>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==1 ? 0 : 1)\n"
+"Language-Code: it\n"
+"Language-Name: Italian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tlspu.cookiepolicy\n"
+
+#: ./controlpanel/cookiepolicy.py:86
+msgid "Configure settings for Cookie Policy."
+msgstr "Configura le impostazioni di Cookie Policy."
+
+#: ./controlpanel/cookiepolicy.py:78
+#: ./profiles/default/actionicons.xml
+#: ./profiles/default/controlpanel.xml
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: ./controlpanel/cookiepolicy.py:85
+msgid "Cookie Policy settings"
+msgstr "Impostazioni di Cookie Policy"
+
+#: ./controlpanel/cookiepolicy.py:26
+msgid "Enable Cookie Policy"
+msgstr "Abilita Cookie Policy"
+
+#: ./browser/templates/cookiepolicy.pt:9
+msgid "I am fine with this"
+msgstr "Accetto"
+
+#: ./controlpanel/cookiepolicy.py:41
+msgid "Message"
+msgstr "Messaggio"
+
+#: ./controlpanel/cookiepolicy.py:33
+msgid "This Site Uses Cookies"
+msgstr "Questo sito usa i cookie"
+
+#: ./controlpanel/cookiepolicy.py:32
+msgid "Title"
+msgstr "Titolo"
+
+#: ./controlpanel/cookiepolicy.py:47
+msgid "We may use cookies to record some preference settings and to analyse how you use our web site. We may also use external analysis systems which may set additional cookies to perform their analysis.These cookies are integral to our web site. You can delete or disable these cookies in your web browser if you wish but then our site may not work correctly."
+msgstr "È possibile che questo sito utilizzi dei cookie per memorizzare le impostazioni relative alle tue preferenze e per analizzare come utilizzi il nostro sito. Ulteriori cookie possono essere installati da sistemi di analisi di terze parti. Questi cookie sono parte integrante del sito web: se desideri, puoi cancellarli o disabilitarli nel tuo web browser, ma a quel punto il sito potrebbe non funzionare correttamente."
+
+#. Default: "Enter the message for the CookiePolicy panel. This may contain HTML"
+#: ./controlpanel/cookiepolicy.py:42
+msgid "help_tcp_message"
+msgstr "Inserisci il messaggio da visualizzare nel pannello CookiePolicy. Può contenere HTML."
+
+#. Default: "Enter the title for the CookiePolicy panel"
+#: ./controlpanel/cookiepolicy.py:34
+msgid "help_tcp_title"
+msgstr "Inserisci il titolo del pannello CookiePolicy."
+
