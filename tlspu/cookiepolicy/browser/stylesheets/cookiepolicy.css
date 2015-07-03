@@ -6,6 +6,9 @@
     margin-right: auto;
     margin-left: auto;
     padding: 5px 15px 0 15px;
+    background-color: #E0E0C0;
+    box-shadow: 0px 0px 32px 8px #808080;
+    border-radius: 20px 20px 0px 0px;
     z-index: 100;
 }
 #tlspu_cookiepolicy_title {
